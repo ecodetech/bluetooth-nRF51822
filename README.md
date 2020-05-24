@@ -5,7 +5,7 @@ I did not write this application, it was provided by "Nordic Semiconductor", I j
  This project thus I pushed here to have backup and to get started the setup for these devices. Nordic Semiconductor, I think  they are focusing on new nRF52 chips, they may have removed support for this IC in their new SDK releases.<br>
  <br>
 Based on nRF51822 <br>
-SDK used nRF5 version 12.3.0, (bacause this could be last sdk for nRF51 using softdeice S130) <br>
+SDK used nRF5 version 12.3.0, (because this could be the last sdk for nRF51 using softdeice S130) <br>
 Official download: https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK/Download <br>
 <br>
 Softdevice: S130 latest <br>
