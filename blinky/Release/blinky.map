@@ -1,0 +1,1100 @@
+Archive member included because of file (symbol)
+
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+                              ./Board Support/bsp.o (__aeabi_uidiv)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                              /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                              /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                              /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+                              ./nRF_Segger_RTT/SEGGER_RTT.o (memcpy)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                              /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strcpy.o)
+                              ./nRF_Segger_RTT/SEGGER_RTT.o (strcpy)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+                              ./nRF_Segger_RTT/SEGGER_RTT.o (strlen)
+/opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                              /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+nrf_nvic_state      0x8               ./nRF_Libraries/app_util_platform.o
+_SEGGER_RTT         0x78              ./nRF_Segger_RTT/SEGGER_RTT.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x00000000        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 ./nRF_SoftDevice/softdevice_handler.o
+ .data          0x00000000        0x0 ./nRF_SoftDevice/softdevice_handler.o
+ .bss           0x00000000        0x0 ./nRF_SoftDevice/softdevice_handler.o
+ .text.sd_softdevice_disable
+                0x00000000        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .text.intern_softdevice_events_execute
+                0x00000000       0x14 ./nRF_SoftDevice/softdevice_handler.o
+ .text.softdevice_handler_sd_disable
+                0x00000000       0x1c ./nRF_SoftDevice/softdevice_handler.o
+ .text.softdevice_sys_evt_handler_set
+                0x00000000       0x14 ./nRF_SoftDevice/softdevice_handler.o
+ .text.softdevice_handler_suspend
+                0x00000000       0x34 ./nRF_SoftDevice/softdevice_handler.o
+ .text.softdevice_handler_resume
+                0x00000000       0x54 ./nRF_SoftDevice/softdevice_handler.o
+ .text.softdevice_handler_is_suspended
+                0x00000000        0xc ./nRF_SoftDevice/softdevice_handler.o
+ .text.sd_check_ram_start
+                0x00000000       0x14 ./nRF_SoftDevice/softdevice_handler.o
+ .text          0x00000000        0x0 ./nRF_Segger_RTT/RTT_Syscalls_GCC.o
+ .data          0x00000000        0x0 ./nRF_Segger_RTT/RTT_Syscalls_GCC.o
+ .bss           0x00000000        0x0 ./nRF_Segger_RTT/RTT_Syscalls_GCC.o
+ .comment       0x00000000       0x71 ./nRF_Segger_RTT/RTT_Syscalls_GCC.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF_Segger_RTT/RTT_Syscalls_GCC.o
+ .text          0x00000000        0x0 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .data          0x00000000        0x0 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .bss           0x00000000        0x0 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_ReadNoLock
+                0x00000000      0x130 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_Read
+                0x00000000      0x154 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_WriteSkipNoLock
+                0x00000000       0xa4 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_WriteNoLock
+                0x00000000      0x190 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_Write
+                0x00000000      0x20c ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_WriteString
+                0x00000000      0x210 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_GetKey
+                0x00000000      0x12c ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_WaitKey
+                0x00000000      0x134 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_HasKey
+                0x00000000       0x70 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_HasData
+                0x00000000       0x1c ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_ConfigUpBuffer
+                0x00000000       0xdc ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_ConfigDownBuffer
+                0x00000000       0xd0 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_SetNameUpBuffer
+                0x00000000       0x9c ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_SetNameDownBuffer
+                0x00000000       0x9c ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_Init
+                0x00000000       0x64 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_SetTerminal
+                0x00000000      0x178 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text.SEGGER_RTT_TerminalOut
+                0x00000000      0x468 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .bss._ActiveTerminal
+                0x00000000        0x1 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .rodata.str1.4
+                0x00000000       0x17 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .bss._acDownBuffer
+                0x00000000       0x10 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .bss._acUpBuffer
+                0x00000000       0x40 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .rodata._aTerminalId
+                0x00000000       0x10 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .comment       0x00000000       0x71 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF_Segger_RTT/SEGGER_RTT.o
+ COMMON         0x00000000       0x78 ./nRF_Segger_RTT/SEGGER_RTT.o
+ .text          0x00000000        0x0 ./nRF_Segger_RTT/SEGGER_RTT_printf.o
+ .data          0x00000000        0x0 ./nRF_Segger_RTT/SEGGER_RTT_printf.o
+ .bss           0x00000000        0x0 ./nRF_Segger_RTT/SEGGER_RTT_printf.o
+ .comment       0x00000000       0x71 ./nRF_Segger_RTT/SEGGER_RTT_printf.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF_Segger_RTT/SEGGER_RTT_printf.o
+ .text          0x00000000        0x0 ./nRF_Log/nrf_log_backend_serial.o
+ .data          0x00000000        0x0 ./nRF_Log/nrf_log_backend_serial.o
+ .bss           0x00000000        0x0 ./nRF_Log/nrf_log_backend_serial.o
+ .comment       0x00000000       0x71 ./nRF_Log/nrf_log_backend_serial.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF_Log/nrf_log_backend_serial.o
+ .text          0x00000000        0x0 ./nRF_Log/nrf_log_frontend.o
+ .data          0x00000000        0x0 ./nRF_Log/nrf_log_frontend.o
+ .bss           0x00000000        0x0 ./nRF_Log/nrf_log_frontend.o
+ .comment       0x00000000       0x71 ./nRF_Log/nrf_log_frontend.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF_Log/nrf_log_frontend.o
+ .text          0x00000000        0x0 ./nRF_Libraries/app_button.o
+ .data          0x00000000        0x0 ./nRF_Libraries/app_button.o
+ .bss           0x00000000        0x0 ./nRF_Libraries/app_button.o
+ .text.app_button_is_pushed
+                0x00000000       0x28 ./nRF_Libraries/app_button.o
+ .text          0x00000000        0x0 ./nRF_Libraries/app_error.o
+ .data          0x00000000        0x0 ./nRF_Libraries/app_error.o
+ .bss           0x00000000        0x0 ./nRF_Libraries/app_error.o
+ .text.app_error_handler
+                0x00000000       0x20 ./nRF_Libraries/app_error.o
+ .text.app_error_save_and_stop
+                0x00000000       0x64 ./nRF_Libraries/app_error.o
+ .bss.m_error_data.5835
+                0x00000000       0x20 ./nRF_Libraries/app_error.o
+ .text          0x00000000        0x0 ./nRF_Libraries/app_error_weak.o
+ .data          0x00000000        0x0 ./nRF_Libraries/app_error_weak.o
+ .bss           0x00000000        0x0 ./nRF_Libraries/app_error_weak.o
+ .text          0x00000000        0x0 ./nRF_Libraries/app_timer.o
+ .data          0x00000000        0x0 ./nRF_Libraries/app_timer.o
+ .bss           0x00000000        0x0 ./nRF_Libraries/app_timer.o
+ .text.app_timer_stop_all
+                0x00000000       0x78 ./nRF_Libraries/app_timer.o
+ .text.app_timer_cnt_get
+                0x00000000       0x10 ./nRF_Libraries/app_timer.o
+ .text.app_timer_cnt_diff_compute
+                0x00000000        0xc ./nRF_Libraries/app_timer.o
+ .text          0x00000000        0x0 ./nRF_Libraries/app_util_platform.o
+ .data          0x00000000        0x0 ./nRF_Libraries/app_util_platform.o
+ .bss           0x00000000        0x0 ./nRF_Libraries/app_util_platform.o
+ .text.app_util_disable_irq
+                0x00000000       0x10 ./nRF_Libraries/app_util_platform.o
+ .text.app_util_enable_irq
+                0x00000000       0x14 ./nRF_Libraries/app_util_platform.o
+ .bss.m_in_critical_region
+                0x00000000        0x4 ./nRF_Libraries/app_util_platform.o
+ .text          0x00000000        0x0 ./nRF_Libraries/hardfault_implementation.o
+ .data          0x00000000        0x0 ./nRF_Libraries/hardfault_implementation.o
+ .bss           0x00000000        0x0 ./nRF_Libraries/hardfault_implementation.o
+ .comment       0x00000000       0x71 ./nRF_Libraries/hardfault_implementation.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF_Libraries/hardfault_implementation.o
+ .text          0x00000000        0x0 ./nRF_Libraries/nrf_assert.o
+ .data          0x00000000        0x0 ./nRF_Libraries/nrf_assert.o
+ .bss           0x00000000        0x0 ./nRF_Libraries/nrf_assert.o
+ .text.assert_nrf_callback
+                0x00000000       0x1c ./nRF_Libraries/nrf_assert.o
+ .comment       0x00000000       0x71 ./nRF_Libraries/nrf_assert.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF_Libraries/nrf_assert.o
+ .text          0x00000000        0x0 ./nRF_Libraries/sdk_errors.o
+ .data          0x00000000        0x0 ./nRF_Libraries/sdk_errors.o
+ .bss           0x00000000        0x0 ./nRF_Libraries/sdk_errors.o
+ .comment       0x00000000       0x71 ./nRF_Libraries/sdk_errors.o
+ .ARM.attributes
+                0x00000000       0x31 ./nRF_Libraries/sdk_errors.o
+ .text          0x00000000        0x0 ./nRF_Drivers/nrf_drv_clock.o
+ .data          0x00000000        0x0 ./nRF_Drivers/nrf_drv_clock.o
+ .bss           0x00000000        0x0 ./nRF_Drivers/nrf_drv_clock.o
+ .text.sd_clock_hfclk_request
+                0x00000000        0x4 ./nRF_Drivers/nrf_drv_clock.o
+ .text.sd_clock_hfclk_release
+                0x00000000        0x4 ./nRF_Drivers/nrf_drv_clock.o
+ .text.sd_clock_hfclk_is_running
+                0x00000000        0x4 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_init_check
+                0x00000000        0xc ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_init
+                0x00000000       0x4c ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_uninit
+                0x00000000       0x70 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_lfclk_request
+                0x00000000       0x9c ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_lfclk_release
+                0x00000000       0x50 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_lfclk_is_running
+                0x00000000       0x1c ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_hfclk_request
+                0x00000000       0xa4 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_hfclk_release
+                0x00000000       0x64 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_hfclk_is_running
+                0x00000000       0x44 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_calibration_start
+                0x00000000        0x4 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_calibration_abort
+                0x00000000        0x4 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_is_calibrating
+                0x00000000        0x4 ./nRF_Drivers/nrf_drv_clock.o
+ .text.nrf_drv_clock_on_sd_disable
+                0x00000000       0x58 ./nRF_Drivers/nrf_drv_clock.o
+ .text          0x00000000        0x0 ./nRF_Drivers/nrf_drv_common.o
+ .data          0x00000000        0x0 ./nRF_Drivers/nrf_drv_common.o
+ .bss           0x00000000        0x0 ./nRF_Drivers/nrf_drv_common.o
+ .text.nrf_drv_common_clock_irq_disable
+                0x00000000       0x10 ./nRF_Drivers/nrf_drv_common.o
+ .text          0x00000000        0x0 ./nRF_Drivers/nrf_drv_gpiote.o
+ .data          0x00000000        0x0 ./nRF_Drivers/nrf_drv_gpiote.o
+ .bss           0x00000000        0x0 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_uninit
+                0x00000000       0xec ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_init
+                0x00000000       0xdc ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_uninit
+                0x00000000       0x48 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_set
+                0x00000000       0x14 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_clear
+                0x00000000       0x14 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_toggle
+                0x00000000       0x2c ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_enable
+                0x00000000       0x38 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_disable
+                0x00000000       0x28 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_addr_get
+                0x00000000       0x20 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_force
+                0x00000000       0x38 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_trigger
+                0x00000000       0x20 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_in_uninit
+                0x00000000       0xa8 ./nRF_Drivers/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_in_event_addr_get
+                0x00000000       0x2c ./nRF_Drivers/nrf_drv_gpiote.o
+ .text          0x00000000        0x0 ./nRF_Drivers/nrf_drv_uart.o
+ .data          0x00000000        0x0 ./nRF_Drivers/nrf_drv_uart.o
+ .bss           0x00000000        0x0 ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_init
+                0x00000000      0x148 ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_uninit
+                0x00000000       0xfc ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_tx
+                0x00000000      0x128 ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_tx_in_progress
+                0x00000000       0x1c ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_rx
+                0x00000000      0x1b4 ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_rx_enable
+                0x00000000       0x3c ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_rx_disable
+                0x00000000       0x1c ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_errorsrc_get
+                0x00000000       0x18 ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_tx_abort
+                0x00000000       0x48 ./nRF_Drivers/nrf_drv_uart.o
+ .text.nrf_drv_uart_rx_abort
+                0x00000000       0x14 ./nRF_Drivers/nrf_drv_uart.o
+ .text          0x00000000        0x0 ./nRF_BLE_Services/ble_lbs.o
+ .data          0x00000000        0x0 ./nRF_BLE_Services/ble_lbs.o
+ .bss           0x00000000        0x0 ./nRF_BLE_Services/ble_lbs.o
+ .text          0x00000000        0x0 ./nRF_BLE/ble_advdata.o
+ .data          0x00000000        0x0 ./nRF_BLE/ble_advdata.o
+ .bss           0x00000000        0x0 ./nRF_BLE/ble_advdata.o
+ .text          0x00000000        0x0 ./nRF_BLE/ble_conn_params.o
+ .data          0x00000000        0x0 ./nRF_BLE/ble_conn_params.o
+ .bss           0x00000000        0x0 ./nRF_BLE/ble_conn_params.o
+ .text.ble_conn_params_stop
+                0x00000000       0x10 ./nRF_BLE/ble_conn_params.o
+ .text.ble_conn_params_change_conn_params
+                0x00000000       0x70 ./nRF_BLE/ble_conn_params.o
+ .text          0x00000000        0x0 ./nRF_BLE/ble_srv_common.o
+ .data          0x00000000        0x0 ./nRF_BLE/ble_srv_common.o
+ .bss           0x00000000        0x0 ./nRF_BLE/ble_srv_common.o
+ .text.sd_ble_gatts_characteristic_add
+                0x00000000        0x4 ./nRF_BLE/ble_srv_common.o
+ .text.sd_ble_gatts_descriptor_add
+                0x00000000        0x4 ./nRF_BLE/ble_srv_common.o
+ .text.ble_srv_is_indication_enabled
+                0x00000000        0x8 ./nRF_BLE/ble_srv_common.o
+ .text.ble_srv_report_ref_encode
+                0x00000000        0xc ./nRF_BLE/ble_srv_common.o
+ .text.ble_srv_ascii_to_utf8
+                0x00000000       0x14 ./nRF_BLE/ble_srv_common.o
+ .text.characteristic_add
+                0x00000000      0x36c ./nRF_BLE/ble_srv_common.o
+ .rodata.characteristic_add
+                0x00000000       0x78 ./nRF_BLE/ble_srv_common.o
+ .text.descriptor_add
+                0x00000000      0x15c ./nRF_BLE/ble_srv_common.o
+ .rodata.descriptor_add
+                0x00000000       0x30 ./nRF_BLE/ble_srv_common.o
+ .data          0x00000000        0x0 ./Source Files/gcc_startup_nrf51.o
+ .bss           0x00000000        0x0 ./Source Files/gcc_startup_nrf51.o
+ .text          0x00000000        0x0 ./Source Files/main.o
+ .data          0x00000000        0x0 ./Source Files/main.o
+ .bss           0x00000000        0x0 ./Source Files/main.o
+ .text.assert_nrf_callback
+                0x00000000       0x14 ./Source Files/main.o
+ .text          0x00000000        0x0 ./Source Files/system_nrf51.o
+ .data          0x00000000        0x0 ./Source Files/system_nrf51.o
+ .bss           0x00000000        0x0 ./Source Files/system_nrf51.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x10 ./Source Files/system_nrf51.o
+ .text          0x00000000        0x0 ./Board Support/bsp.o
+ .data          0x00000000        0x0 ./Board Support/bsp.o
+ .bss           0x00000000        0x0 ./Board Support/bsp.o
+ .text.alert_timer_handler
+                0x00000000        0xc ./Board Support/bsp.o
+ .text.bsp_button_event_handler
+                0x00000000       0xb8 ./Board Support/bsp.o
+ .text.leds_timer_handler
+                0x00000000      0x1ec ./Board Support/bsp.o
+ .rodata.leds_timer_handler
+                0x00000000       0x60 ./Board Support/bsp.o
+ .text.button_timer_handler
+                0x00000000       0x30 ./Board Support/bsp.o
+ .text.bsp_button_is_pressed
+                0x00000000        0x8 ./Board Support/bsp.o
+ .text.bsp_indication_set
+                0x00000000      0x220 ./Board Support/bsp.o
+ .rodata.bsp_indication_set
+                0x00000000       0x60 ./Board Support/bsp.o
+ .text.bsp_init
+                0x00000000       0xa8 ./Board Support/bsp.o
+ .text.bsp_event_to_button_action_assign
+                0x00000000       0x58 ./Board Support/bsp.o
+ .text.bsp_buttons_enable
+                0x00000000        0x8 ./Board Support/bsp.o
+ .text.bsp_buttons_disable
+                0x00000000        0x8 ./Board Support/bsp.o
+ .text.bsp_wakeup_button_enable
+                0x00000000       0x30 ./Board Support/bsp.o
+ .text.bsp_wakeup_button_disable
+                0x00000000       0x28 ./Board Support/bsp.o
+ .bss.m_leds_timer_id_data
+                0x00000000       0x20 ./Board Support/bsp.o
+ .bss.current_long_push_pin_no.6427
+                0x00000000        0x1 ./Board Support/bsp.o
+ .rodata.m_button_timer_id
+                0x00000000        0x4 ./Board Support/bsp.o
+ .bss.m_indication_type
+                0x00000000        0x4 ./Board Support/bsp.o
+ .rodata.m_leds_timer_id
+                0x00000000        0x4 ./Board Support/bsp.o
+ .bss.release_event_at_push.6428
+                0x00000000        0x2 ./Board Support/bsp.o
+ .rodata.app_buttons
+                0x00000000       0x10 ./Board Support/bsp.o
+ .bss.m_app_ticks_per_100ms
+                0x00000000        0x4 ./Board Support/bsp.o
+ .bss.m_registered_callback
+                0x00000000        0x4 ./Board Support/bsp.o
+ .bss.m_button_timer_id_data
+                0x00000000       0x20 ./Board Support/bsp.o
+ .bss.m_stable_state
+                0x00000000        0x1 ./Board Support/bsp.o
+ .bss.m_alert_timer_id_data
+                0x00000000       0x20 ./Board Support/bsp.o
+ .rodata.m_alert_timer_id
+                0x00000000        0x4 ./Board Support/bsp.o
+ .bss.m_leds_clear
+                0x00000000        0x1 ./Board Support/bsp.o
+ .bss.m_events_list
+                0x00000000        0x6 ./Board Support/bsp.o
+ .comment       0x00000000       0x71 ./Board Support/bsp.o
+ .ARM.attributes
+                0x00000000       0x31 ./Board Support/bsp.o
+ .text          0x00000000        0x0 ./Board Support/bsp_nfc.o
+ .data          0x00000000        0x0 ./Board Support/bsp_nfc.o
+ .bss           0x00000000        0x0 ./Board Support/bsp_nfc.o
+ .text.bsp_nfc_btn_init
+                0x00000000        0xc ./Board Support/bsp_nfc.o
+ .text.bsp_nfc_btn_deinit
+                0x00000000        0xc ./Board Support/bsp_nfc.o
+ .text.bsp_nfc_sleep_mode_prepare
+                0x00000000        0x4 ./Board Support/bsp_nfc.o
+ .comment       0x00000000       0x71 ./Board Support/bsp_nfc.o
+ .ARM.attributes
+                0x00000000       0x31 ./Board Support/bsp_nfc.o
+ .text          0x00000000        0x0 ./Board Definition/boards.o
+ .data          0x00000000        0x0 ./Board Definition/boards.o
+ .bss           0x00000000        0x0 ./Board Definition/boards.o
+ .text.bsp_board_led_state_get
+                0x00000000       0x20 ./Board Definition/boards.o
+ .text.bsp_board_leds_off
+                0x00000000       0x2c ./Board Definition/boards.o
+ .text.bsp_board_leds_on
+                0x00000000       0x28 ./Board Definition/boards.o
+ .text.bsp_board_led_invert
+                0x00000000       0x34 ./Board Definition/boards.o
+ .text.bsp_board_led_idx_to_pin
+                0x00000000        0xc ./Board Definition/boards.o
+ .text.bsp_board_pin_to_led_idx
+                0x00000000       0x30 ./Board Definition/boards.o
+ .text.bsp_board_button_state_get
+                0x00000000       0x1c ./Board Definition/boards.o
+ .text.bsp_board_buttons_init
+                0x00000000       0x18 ./Board Definition/boards.o
+ .text.bsp_board_pin_to_button_idx
+                0x00000000       0x18 ./Board Definition/boards.o
+ .text.bsp_board_button_idx_to_pin
+                0x00000000        0xc ./Board Definition/boards.o
+ .rodata.m_board_btn_list
+                0x00000000        0x2 ./Board Definition/boards.o
+ .text          0x00000000      0x120 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000       0x20 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x1e /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1e /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strcpy.o)
+ .text.strcpy   0x00000000       0x10 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strcpy.o)
+ .debug_frame   0x00000000       0x20 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000000       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strcpy.o)
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .text          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .data          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0001b000         0x00025000         xr
+RAM              0x20002000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.text           0x0001b000     0x2aa8
+ *(.isr_vector)
+ .isr_vector    0x0001b000       0xc0 ./Source Files/gcc_startup_nrf51.o
+                0x0001b000                __isr_vector
+ *(.text*)
+ .text          0x0001b0c0       0x60 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .text          0x0001b120       0x78 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x0001b120                _mainCRTStartup
+                0x0001b120                _start
+ .text.sd_evt_get
+                0x0001b198        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .text.sd_softdevice_enable
+                0x0001b19c        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .text.sd_ble_enable
+                0x0001b1a0        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .text.sd_ble_evt_get
+                0x0001b1a4        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .text.softdevice_fault_handler
+                0x0001b1a8        0x8 ./nRF_SoftDevice/softdevice_handler.o
+                0x0001b1a8                softdevice_fault_handler
+ .text.intern_softdevice_events_execute.part.1
+                0x0001b1b0       0xcc ./nRF_SoftDevice/softdevice_handler.o
+ .text.softdevice_handler_is_enabled
+                0x0001b27c        0xc ./nRF_SoftDevice/softdevice_handler.o
+                0x0001b27c                softdevice_handler_is_enabled
+ .text.softdevice_handler_init
+                0x0001b288       0x9c ./nRF_SoftDevice/softdevice_handler.o
+                0x0001b288                softdevice_handler_init
+ .text.softdevice_ble_evt_handler_set
+                0x0001b324       0x14 ./nRF_SoftDevice/softdevice_handler.o
+                0x0001b324                softdevice_ble_evt_handler_set
+ .text.SWI2_IRQHandler
+                0x0001b338       0x30 ./nRF_SoftDevice/softdevice_handler.o
+                0x0001b338                SWI2_IRQHandler
+ .text.softdevice_enable_get_default_config
+                0x0001b368       0x30 ./nRF_SoftDevice/softdevice_handler.o
+                0x0001b368                softdevice_enable_get_default_config
+ .text.softdevice_enable
+                0x0001b398       0x1c ./nRF_SoftDevice/softdevice_handler.o
+                0x0001b398                softdevice_enable
+ .text.detection_delay_timeout_handler
+                0x0001b3b4       0xa8 ./nRF_Libraries/app_button.o
+ .text.gpiote_event_handler
+                0x0001b45c       0x5c ./nRF_Libraries/app_button.o
+ .text.app_button_init
+                0x0001b4b8       0xb4 ./nRF_Libraries/app_button.o
+                0x0001b4b8                app_button_init
+ .text.app_button_enable
+                0x0001b56c       0x30 ./nRF_Libraries/app_button.o
+                0x0001b56c                app_button_enable
+ .text.app_button_disable
+                0x0001b59c       0x34 ./nRF_Libraries/app_button.o
+                0x0001b59c                app_button_disable
+ .text.app_error_handler_bare
+                0x0001b5d0       0x20 ./nRF_Libraries/app_error.o
+                0x0001b5d0                app_error_handler_bare
+ .text.app_error_fault_handler
+                0x0001b5f0       0x1c ./nRF_Libraries/app_error_weak.o
+                0x0001b5f0                app_error_fault_handler
+ .text.rtc1_stop
+                0x0001b60c       0x84 ./nRF_Libraries/app_timer.o
+ .text.RTC1_IRQHandler
+                0x0001b690       0xdc ./nRF_Libraries/app_timer.o
+                0x0001b690                RTC1_IRQHandler
+ .text.SWI0_IRQHandler
+                0x0001b76c      0x420 ./nRF_Libraries/app_timer.o
+                0x0001b76c                SWI0_IRQHandler
+ .text.app_timer_init
+                0x0001bb8c       0xb0 ./nRF_Libraries/app_timer.o
+                0x0001bb8c                app_timer_init
+ .text.app_timer_create
+                0x0001bc3c       0x34 ./nRF_Libraries/app_timer.o
+                0x0001bc3c                app_timer_create
+ .text.app_timer_start
+                0x0001bc70       0xc4 ./nRF_Libraries/app_timer.o
+                0x0001bc70                app_timer_start
+ .text.app_timer_stop
+                0x0001bd34       0x8c ./nRF_Libraries/app_timer.o
+                0x0001bd34                app_timer_stop
+ .text.app_util_critical_region_enter
+                0x0001bdc0       0x40 ./nRF_Libraries/app_util_platform.o
+                0x0001bdc0                app_util_critical_region_enter
+ .text.app_util_critical_region_exit
+                0x0001be00       0x2c ./nRF_Libraries/app_util_platform.o
+                0x0001be00                app_util_critical_region_exit
+ .text.POWER_CLOCK_IRQHandler
+                0x0001be2c       0x7c ./nRF_Drivers/nrf_drv_clock.o
+                0x0001be2c                POWER_CLOCK_IRQHandler
+ .text.nrf_drv_clock_on_soc_event
+                0x0001bea8       0x28 ./nRF_Drivers/nrf_drv_clock.o
+                0x0001bea8                nrf_drv_clock_on_soc_event
+ .text.nrf_drv_clock_on_sd_enable
+                0x0001bed0       0x68 ./nRF_Drivers/nrf_drv_clock.o
+                0x0001bed0                nrf_drv_clock_on_sd_enable
+ .text.nrf_drv_common_irq_enable
+                0x0001bf38       0x80 ./nRF_Drivers/nrf_drv_common.o
+                0x0001bf38                nrf_drv_common_irq_enable
+ .text.nrf_drv_gpiote_init
+                0x0001bfb8       0x74 ./nRF_Drivers/nrf_drv_gpiote.o
+                0x0001bfb8                nrf_drv_gpiote_init
+ .text.nrf_drv_gpiote_is_init
+                0x0001c02c       0x14 ./nRF_Drivers/nrf_drv_gpiote.o
+                0x0001c02c                nrf_drv_gpiote_is_init
+ .text.nrf_drv_gpiote_in_init
+                0x0001c040      0x15c ./nRF_Drivers/nrf_drv_gpiote.o
+                0x0001c040                nrf_drv_gpiote_in_init
+ .text.nrf_drv_gpiote_in_event_enable
+                0x0001c19c       0xa4 ./nRF_Drivers/nrf_drv_gpiote.o
+                0x0001c19c                nrf_drv_gpiote_in_event_enable
+ .text.nrf_drv_gpiote_in_event_disable
+                0x0001c240       0x60 ./nRF_Drivers/nrf_drv_gpiote.o
+                0x0001c240                nrf_drv_gpiote_in_event_disable
+ .text.nrf_drv_gpiote_in_is_set
+                0x0001c2a0       0x14 ./nRF_Drivers/nrf_drv_gpiote.o
+                0x0001c2a0                nrf_drv_gpiote_in_is_set
+ .text.GPIOTE_IRQHandler
+                0x0001c2b4      0x220 ./nRF_Drivers/nrf_drv_gpiote.o
+                0x0001c2b4                GPIOTE_IRQHandler
+ .text.UART0_IRQHandler
+                0x0001c4d4      0x198 ./nRF_Drivers/nrf_drv_uart.o
+                0x0001c4d4                UART0_IRQHandler
+ .text.sd_ble_gatts_service_add
+                0x0001c66c        0x4 ./nRF_BLE_Services/ble_lbs.o
+ .text.sd_ble_gatts_characteristic_add
+                0x0001c670        0x4 ./nRF_BLE_Services/ble_lbs.o
+ .text.sd_ble_gatts_hvx
+                0x0001c674        0x4 ./nRF_BLE_Services/ble_lbs.o
+ .text.sd_ble_uuid_vs_add
+                0x0001c678        0x4 ./nRF_BLE_Services/ble_lbs.o
+ .text.ble_lbs_on_ble_evt
+                0x0001c67c       0x3c ./nRF_BLE_Services/ble_lbs.o
+                0x0001c67c                ble_lbs_on_ble_evt
+ .text.ble_lbs_init
+                0x0001c6b8      0x208 ./nRF_BLE_Services/ble_lbs.o
+                0x0001c6b8                ble_lbs_init
+ .text.ble_lbs_on_button_change
+                0x0001c8c0       0x38 ./nRF_BLE_Services/ble_lbs.o
+                0x0001c8c0                ble_lbs_on_button_change
+ .text.sd_ble_gap_address_get
+                0x0001c8f8        0x4 ./nRF_BLE/ble_advdata.o
+ .text.sd_ble_gap_adv_data_set
+                0x0001c8fc        0x4 ./nRF_BLE/ble_advdata.o
+ .text.sd_ble_gap_appearance_get
+                0x0001c900        0x4 ./nRF_BLE/ble_advdata.o
+ .text.sd_ble_gap_device_name_get
+                0x0001c904        0x4 ./nRF_BLE/ble_advdata.o
+ .text.sd_ble_uuid_encode
+                0x0001c908        0x4 ./nRF_BLE/ble_advdata.o
+ .text.name_encode
+                0x0001c90c       0x8c ./nRF_BLE/ble_advdata.o
+ .text.uuid_list_sized_encode
+                0x0001c998       0xe8 ./nRF_BLE/ble_advdata.o
+ .text.adv_data_encode
+                0x0001ca80      0x3ac ./nRF_BLE/ble_advdata.o
+                0x0001ca80                adv_data_encode
+ .text.ble_advdata_set
+                0x0001ce2c      0x408 ./nRF_BLE/ble_advdata.o
+                0x0001ce2c                ble_advdata_set
+ .text.sd_ble_gap_conn_param_update
+                0x0001d234        0x4 ./nRF_BLE/ble_conn_params.o
+ .text.sd_ble_gap_disconnect
+                0x0001d238        0x4 ./nRF_BLE/ble_conn_params.o
+ .text.sd_ble_gap_ppcp_set
+                0x0001d23c        0x4 ./nRF_BLE/ble_conn_params.o
+ .text.sd_ble_gap_ppcp_get
+                0x0001d240        0x4 ./nRF_BLE/ble_conn_params.o
+ .text.update_timeout_handler
+                0x0001d244       0x78 ./nRF_BLE/ble_conn_params.o
+ .text.conn_params_negotiation
+                0x0001d2bc       0x88 ./nRF_BLE/ble_conn_params.o
+ .text.ble_conn_params_init
+                0x0001d344       0x78 ./nRF_BLE/ble_conn_params.o
+                0x0001d344                ble_conn_params_init
+ .text.ble_conn_params_on_ble_evt
+                0x0001d3bc       0xa8 ./nRF_BLE/ble_conn_params.o
+                0x0001d3bc                ble_conn_params_on_ble_evt
+ .text.ble_srv_is_notification_enabled
+                0x0001d464        0x8 ./nRF_BLE/ble_srv_common.o
+                0x0001d464                ble_srv_is_notification_enabled
+ .text          0x0001d46c       0x4c ./Source Files/gcc_startup_nrf51.o
+                0x0001d46c                Reset_Handler
+                0x0001d4ac                NMI_Handler
+                0x0001d4ae                HardFault_Handler
+                0x0001d4b0                SVC_Handler
+                0x0001d4b2                PendSV_Handler
+                0x0001d4b4                SysTick_Handler
+                0x0001d4b6                TIMER2_IRQHandler
+                0x0001d4b6                SPI0_TWI0_IRQHandler
+                0x0001d4b6                RTC0_IRQHandler
+                0x0001d4b6                RADIO_IRQHandler
+                0x0001d4b6                LPCOMP_IRQHandler
+                0x0001d4b6                SWI4_IRQHandler
+                0x0001d4b6                TEMP_IRQHandler
+                0x0001d4b6                QDEC_IRQHandler
+                0x0001d4b6                SWI5_IRQHandler
+                0x0001d4b6                TIMER0_IRQHandler
+                0x0001d4b6                TIMER1_IRQHandler
+                0x0001d4b6                ECB_IRQHandler
+                0x0001d4b6                Default_Handler
+                0x0001d4b6                ADC_IRQHandler
+                0x0001d4b6                SWI3_IRQHandler
+                0x0001d4b6                CCM_AAR_IRQHandler
+                0x0001d4b6                WDT_IRQHandler
+                0x0001d4b6                RNG_IRQHandler
+                0x0001d4b6                SPI1_TWI1_IRQHandler
+                0x0001d4b6                SWI1_IRQHandler
+ .text.sd_ble_gap_adv_start
+                0x0001d4b8        0x4 ./Source Files/main.o
+ .text.sd_ble_gap_disconnect
+                0x0001d4bc        0x4 ./Source Files/main.o
+ .text.sd_ble_gap_ppcp_set
+                0x0001d4c0        0x4 ./Source Files/main.o
+ .text.sd_ble_gap_device_name_set
+                0x0001d4c4        0x4 ./Source Files/main.o
+ .text.sd_ble_gap_sec_params_reply
+                0x0001d4c8        0x4 ./Source Files/main.o
+ .text.sd_ble_gatts_rw_authorize_reply
+                0x0001d4cc        0x4 ./Source Files/main.o
+ .text.sd_ble_gatts_sys_attr_set
+                0x0001d4d0        0x4 ./Source Files/main.o
+ .text.sd_ble_user_mem_reply
+                0x0001d4d4        0x4 ./Source Files/main.o
+ .text.sd_app_evt_wait
+                0x0001d4d8        0x4 ./Source Files/main.o
+ .text.conn_params_error_handler
+                0x0001d4dc        0x8 ./Source Files/main.o
+ .text.led_write_handler
+                0x0001d4e4       0x14 ./Source Files/main.o
+ .text.on_conn_params_evt
+                0x0001d4f8       0x24 ./Source Files/main.o
+ .text.button_event_handler
+                0x0001d51c       0x28 ./Source Files/main.o
+ .text.ble_evt_dispatch
+                0x0001d544      0x12c ./Source Files/main.o
+ .text.startup.main
+                0x0001d670      0x1cc ./Source Files/main.o
+                0x0001d670                main
+ .text.SystemInit
+                0x0001d83c       0xec ./Source Files/system_nrf51.o
+                0x0001d83c                SystemInit
+ .text.bsp_board_led_on
+                0x0001d928       0x18 ./Board Definition/boards.o
+                0x0001d928                bsp_board_led_on
+ .text.bsp_board_led_off
+                0x0001d940       0x1c ./Board Definition/boards.o
+                0x0001d940                bsp_board_led_off
+ .text.bsp_board_leds_init
+                0x0001d95c       0x4c ./Board Definition/boards.o
+                0x0001d95c                bsp_board_leds_init
+ .text.exit     0x0001d9a8       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                0x0001d9a8                exit
+ .text.__libc_init_array
+                0x0001d9d4       0x4c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                0x0001d9d4                __libc_init_array
+ .text.memcpy   0x0001da20       0x12 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+                0x0001da20                memcpy
+ .text.memset   0x0001da32       0x10 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                0x0001da32                memset
+ .text.strlen   0x0001da42        0xe /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+                0x0001da42                strlen
+ .text._exit    0x0001da50        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                0x0001da50                _exit
+ *(.init)
+ .init          0x0001da54        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x0001da54                _init
+ .init          0x0001da58        0x8 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x0001da60        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x0001da60                _fini
+ .fini          0x0001da64        0x8 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.m_detection_delay_timer_id
+                0x0001da6c        0x4 ./nRF_Libraries/app_button.o
+ .rodata        0x0001da70       0x10 ./nRF_BLE_Services/ble_lbs.o
+ .rodata.m_conn_params_timer_id
+                0x0001da80        0x4 ./nRF_BLE/ble_conn_params.o
+ .rodata        0x0001da84        0x4 ./Source Files/main.o
+ .rodata.str1.4
+                0x0001da88       0x10 ./Source Files/main.o
+                                  0xe (size before relaxing)
+ .rodata.m_board_led_list
+                0x0001da98        0x5 ./Board Definition/boards.o
+ .rodata.str1.1
+                0x0001da9d        0x2 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ *fill*         0x0001da9f        0x1 
+ .rodata._global_impure_ptr
+                0x0001daa0        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x0001daa0                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x0001daa4        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .eh_frame      0x0001daa4        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+
+.glue_7         0x0001daa8        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0001daa8        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0001daa8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0001daa8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0001daa8        0x0
+ .iplt          0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0001daa8                __exidx_start = .
+
+.ARM.exidx      0x0001daa8        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0001daa8        0x8 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x0001dab0                __exidx_end = .
+                0x0001dab0                __etext = .
+
+.rel.dyn        0x0001dab0        0x0
+ .rel.iplt      0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.data           0x20002000       0x7c load address 0x0001dab0
+                0x20002000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.m_conn_handle
+                0x20002000        0x2 ./Source Files/main.o
+ *fill*         0x20002002        0x2 
+ .data.buttons.8341
+                0x20002004        0x8 ./Source Files/main.o
+ .data.SystemCoreClock
+                0x2000200c        0x4 ./Source Files/system_nrf51.o
+                0x2000200c                SystemCoreClock
+ .data.impure_data
+                0x20002010       0x60 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x20002070                . = ALIGN (0x4)
+                0x20002070                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20002070                PROVIDE (__preinit_array_end, .)
+                0x20002070                . = ALIGN (0x4)
+                0x20002070                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x20002070        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+                0x20002074                PROVIDE (__init_array_end, .)
+                0x20002074                . = ALIGN (0x4)
+                0x20002074                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x20002074        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+                0x20002078                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+ .jcr           0x20002078        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .jcr           0x20002078        0x4 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+                0x2000207c                . = ALIGN (0x4)
+                0x2000207c                __data_end__ = .
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD ./nRF_SoftDevice/softdevice_handler.o
+LOAD ./nRF_Segger_RTT/RTT_Syscalls_GCC.o
+LOAD ./nRF_Segger_RTT/SEGGER_RTT.o
+LOAD ./nRF_Segger_RTT/SEGGER_RTT_printf.o
+LOAD ./nRF_Log/nrf_log_backend_serial.o
+LOAD ./nRF_Log/nrf_log_frontend.o
+LOAD ./nRF_Libraries/app_button.o
+LOAD ./nRF_Libraries/app_error.o
+LOAD ./nRF_Libraries/app_error_weak.o
+LOAD ./nRF_Libraries/app_timer.o
+LOAD ./nRF_Libraries/app_util_platform.o
+LOAD ./nRF_Libraries/hardfault_implementation.o
+LOAD ./nRF_Libraries/nrf_assert.o
+LOAD ./nRF_Libraries/sdk_errors.o
+LOAD ./nRF_Drivers/nrf_drv_clock.o
+LOAD ./nRF_Drivers/nrf_drv_common.o
+LOAD ./nRF_Drivers/nrf_drv_gpiote.o
+LOAD ./nRF_Drivers/nrf_drv_uart.o
+LOAD ./nRF_BLE_Services/ble_lbs.o
+LOAD ./nRF_BLE/ble_advdata.o
+LOAD ./nRF_BLE/ble_conn_params.o
+LOAD ./nRF_BLE/ble_srv_common.o
+LOAD ./Source Files/gcc_startup_nrf51.o
+LOAD ./Source Files/main.o
+LOAD ./Source Files/system_nrf51.o
+LOAD ./Board Support/bsp.o
+LOAD ./Board Support/bsp_nfc.o
+LOAD ./Board Definition/boards.o
+START GROUP
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+START GROUP
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a
+LOAD /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+END GROUP
+
+.igot.plt       0x2000207c        0x0 load address 0x0001db2c
+ .igot.plt      0x00000000        0x0 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.fs_data        0x2000207c        0x0
+                0x2000207c                PROVIDE (__start_fs_data, .)
+ *(.fs_data)
+                0x2000207c                PROVIDE (__stop_fs_data, .)
+
+.pwr_mgmt_data  0x2000207c        0x0
+                0x2000207c                PROVIDE (__start_pwr_mgmt_data, .)
+ *(.pwr_mgmt_data)
+                0x2000207c                PROVIDE (__stop_pwr_mgmt_data, .)
+
+.bss            0x2000207c      0x23c load address 0x0001db2c
+                0x2000207c                . = ALIGN (0x4)
+                0x2000207c                __bss_start__ = .
+ *(.bss*)
+ .bss           0x2000207c       0x1c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .bss.m_suspended
+                0x20002098        0x1 ./nRF_SoftDevice/softdevice_handler.o
+ .bss.m_softdevice_enabled
+                0x20002099        0x1 ./nRF_SoftDevice/softdevice_handler.o
+ .bss.m_ble_evt_buffer_size
+                0x2000209a        0x2 ./nRF_SoftDevice/softdevice_handler.o
+ .bss.mp_ble_evt_buffer
+                0x2000209c        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .bss.m_sys_evt_handler
+                0x200020a0        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .bss.m_ble_evt_handler
+                0x200020a4        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .bss.m_evt_schedule_func
+                0x200020a8        0x4 ./nRF_SoftDevice/softdevice_handler.o
+ .bss.m_detection_delay
+                0x200020ac        0x4 ./nRF_Libraries/app_button.o
+ .bss.mp_buttons
+                0x200020b0        0x4 ./nRF_Libraries/app_button.o
+ .bss.m_button_count
+                0x200020b4        0x1 ./nRF_Libraries/app_button.o
+ *fill*         0x200020b5        0x3 
+ .bss.m_detection_delay_timer_id_data
+                0x200020b8       0x20 ./nRF_Libraries/app_button.o
+ .bss.m_pin_state
+                0x200020d8        0x4 ./nRF_Libraries/app_button.o
+ .bss.m_pin_transition
+                0x200020dc        0x4 ./nRF_Libraries/app_button.o
+ .bss.m_ticks_latest
+                0x200020e0        0x4 ./nRF_Libraries/app_timer.o
+ .bss.mp_timer_id_head
+                0x200020e4        0x4 ./nRF_Libraries/app_timer.o
+ .bss.m_evt_schedule_func
+                0x200020e8        0x4 ./nRF_Libraries/app_timer.o
+ .bss.m_ticks_elapsed_q_read_ind
+                0x200020ec        0x1 ./nRF_Libraries/app_timer.o
+ .bss.m_ticks_elapsed_q_write_ind
+                0x200020ed        0x1 ./nRF_Libraries/app_timer.o
+ .bss.m_rtc1_reset
+                0x200020ee        0x1 ./nRF_Libraries/app_timer.o
+ *fill*         0x200020ef        0x1 
+ .bss.m_op_queue
+                0x200020f0        0x8 ./nRF_Libraries/app_timer.o
+ .bss.m_ticks_elapsed
+                0x200020f8        0x8 ./nRF_Libraries/app_timer.o
+ .bss.m_rtc1_running
+                0x20002100        0x1 ./nRF_Libraries/app_timer.o
+ *fill*         0x20002101        0x3 
+ .bss.m_clock_cb
+                0x20002104       0x14 ./nRF_Drivers/nrf_drv_clock.o
+ .bss.m_cb      0x20002118       0x48 ./nRF_Drivers/nrf_drv_gpiote.o
+ .bss.m_cb      0x20002160       0x1c ./nRF_Drivers/nrf_drv_uart.o
+ .bss.m_change_param
+                0x2000217c        0x1 ./nRF_BLE/ble_conn_params.o
+ *fill*         0x2000217d        0x3 
+ .bss.m_current_conn_params
+                0x20002180        0x8 ./nRF_BLE/ble_conn_params.o
+ .bss.m_update_count
+                0x20002188        0x1 ./nRF_BLE/ble_conn_params.o
+ *fill*         0x20002189        0x3 
+ .bss.m_conn_params_config
+                0x2000218c       0x1c ./nRF_BLE/ble_conn_params.o
+ .bss.m_conn_params_timer_id_data
+                0x200021a8       0x20 ./nRF_BLE/ble_conn_params.o
+ .bss.m_conn_handle
+                0x200021c8        0x2 ./nRF_BLE/ble_conn_params.o
+ *fill*         0x200021ca        0x2 
+ .bss.m_preferred_conn_params
+                0x200021cc        0x8 ./nRF_BLE/ble_conn_params.o
+ .bss.APP_TIMER_BUF.8240
+                0x200021d4       0x78 ./Source Files/main.o
+ .bss.m_lbs     0x2000224c       0x1c ./Source Files/main.o
+ .bss.BLE_EVT_BUFFER.8321
+                0x20002268       0x48 ./Source Files/main.o
+ *(COMMON)
+ COMMON         0x200022b0        0x8 ./nRF_Libraries/app_util_platform.o
+                0x200022b0                nrf_nvic_state
+                0x200022b8                . = ALIGN (0x4)
+                0x200022b8                __bss_end__ = .
+
+.heap           0x200022b8      0x800
+                0x200022b8                __HeapBase = .
+                0x200022b8                __end__ = .
+                0x200022b8                PROVIDE (end, .)
+ *(.heap*)
+ .heap          0x200022b8      0x800 ./Source Files/gcc_startup_nrf51.o
+                0x20002ab8                __HeapLimit = .
+
+.stack_dummy    0x200022b8      0x800
+ *(.stack*)
+ .stack         0x200022b8      0x800 ./Source Files/gcc_startup_nrf51.o
+                0x20004000                __StackTop = (ORIGIN (RAM) + 0x2000)
+                0x20003800                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20004000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(blinky.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x31 ./nRF_SoftDevice/softdevice_handler.o
+ .ARM.attributes
+                0x00000096       0x31 ./nRF_Libraries/app_button.o
+ .ARM.attributes
+                0x000000c7       0x31 ./nRF_Libraries/app_error.o
+ .ARM.attributes
+                0x000000f8       0x31 ./nRF_Libraries/app_error_weak.o
+ .ARM.attributes
+                0x00000129       0x31 ./nRF_Libraries/app_timer.o
+ .ARM.attributes
+                0x0000015a       0x31 ./nRF_Libraries/app_util_platform.o
+ .ARM.attributes
+                0x0000018b       0x31 ./nRF_Drivers/nrf_drv_clock.o
+ .ARM.attributes
+                0x000001bc       0x31 ./nRF_Drivers/nrf_drv_common.o
+ .ARM.attributes
+                0x000001ed       0x31 ./nRF_Drivers/nrf_drv_gpiote.o
+ .ARM.attributes
+                0x0000021e       0x31 ./nRF_Drivers/nrf_drv_uart.o
+ .ARM.attributes
+                0x0000024f       0x31 ./nRF_BLE_Services/ble_lbs.o
+ .ARM.attributes
+                0x00000280       0x31 ./nRF_BLE/ble_advdata.o
+ .ARM.attributes
+                0x000002b1       0x31 ./nRF_BLE/ble_conn_params.o
+ .ARM.attributes
+                0x000002e2       0x31 ./nRF_BLE/ble_srv_common.o
+ .ARM.attributes
+                0x00000313       0x1b ./Source Files/gcc_startup_nrf51.o
+ .ARM.attributes
+                0x0000032e       0x31 ./Source Files/main.o
+ .ARM.attributes
+                0x0000035f       0x31 ./Source Files/system_nrf51.o
+ .ARM.attributes
+                0x00000390       0x31 ./Board Definition/boards.o
+ .ARM.attributes
+                0x000003c1       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000003ed       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000419       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000445       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000471       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000049d       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000004c9       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x000004f5       0x1e /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .ARM.attributes
+                0x00000513       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./nRF_SoftDevice/softdevice_handler.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./nRF_Libraries/app_button.o
+ .comment       0x00000000       0x71 ./nRF_Libraries/app_error.o
+ .comment       0x00000000       0x71 ./nRF_Libraries/app_error_weak.o
+ .comment       0x00000000       0x71 ./nRF_Libraries/app_timer.o
+ .comment       0x00000000       0x71 ./nRF_Libraries/app_util_platform.o
+ .comment       0x00000000       0x71 ./nRF_Drivers/nrf_drv_clock.o
+ .comment       0x00000000       0x71 ./nRF_Drivers/nrf_drv_common.o
+ .comment       0x00000000       0x71 ./nRF_Drivers/nrf_drv_gpiote.o
+ .comment       0x00000000       0x71 ./nRF_Drivers/nrf_drv_uart.o
+ .comment       0x00000000       0x71 ./nRF_BLE_Services/ble_lbs.o
+ .comment       0x00000000       0x71 ./nRF_BLE/ble_advdata.o
+ .comment       0x00000000       0x71 ./nRF_BLE/ble_conn_params.o
+ .comment       0x00000000       0x71 ./nRF_BLE/ble_srv_common.o
+ .comment       0x00000000       0x71 ./Source Files/main.o
+ .comment       0x00000000       0x71 ./Source Files/system_nrf51.o
+ .comment       0x00000000       0x71 ./Board Definition/boards.o
+
+.debug_frame    0x00000000       0xdc
+ .debug_frame   0x00000000       0x28 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x28 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x0000007c       0x20 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000009c       0x20 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .debug_frame   0x000000bc       0x20 /opt/nRF5_SDK_12.3.0_d7731ad/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)

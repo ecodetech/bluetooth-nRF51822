@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.586156376">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.586156376" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${cross_rm} -rf" description="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.586156376" name="Debug" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.enablement=null,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.image=null,org.eclipse.cdt.docker.launcher.containerbuild.property.connection=null" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug">
+                    					
+                    <folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.586156376." name="/" resourcePath="">
+                        						
+                        <toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug.490025090" name="ARM Cross GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug">
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.959883795" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.232405517" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting" useByScannerDiscovery="false"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.292973604" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.163546739" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.none" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1640678912" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.834917044" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1363890351" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.44665472" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.1608023494" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.max" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1013077966" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format" useByScannerDiscovery="true"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1336086065" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" useByScannerDiscovery="false" value="GNU MCU Eclipse ARM Embedded GCC" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.942119974" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture" useByScannerDiscovery="false" value="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.arm" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.792626603" name="ARM family (-mcpu)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" useByScannerDiscovery="false" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m0" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.571943200" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset" useByScannerDiscovery="false" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.thumb" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.457804679" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" useByScannerDiscovery="false" value="arm-none-eabi-" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1349669026" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" useByScannerDiscovery="false" value="gcc" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.285547889" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" useByScannerDiscovery="false" value="g++" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1693252295" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" useByScannerDiscovery="false" value="ar" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1132592678" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" useByScannerDiscovery="false" value="objcopy" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1231531189" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" useByScannerDiscovery="false" value="objdump" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1028209495" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" useByScannerDiscovery="false" value="size" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.346272975" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" useByScannerDiscovery="false" value="make" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.760257684" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" useByScannerDiscovery="false" value="rm" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.id.1044880679" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.id" useByScannerDiscovery="false" value="962691777" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.architecture.1954761359" name="Architecture (-march)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.architecture" useByScannerDiscovery="false" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.arch.none" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nobuiltin.1709333776" name="Disable builtin (-fno-builtin)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nobuiltin" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.1110836518" name="Endianness" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.default" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcmse.629990761" name="TrustZone (-mcmse)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcmse" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.thumbinterwork.1260661776" name="Thumb interwork (-mthumb-interwork)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.thumbinterwork" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.584338950" name="Other target flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.target.other" useByScannerDiscovery="true" value="-mabi=aapcs -mfloat-abi=soft -fno-strict-aliasing --short-enums" valueType="string"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.1739600858" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/blinky}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.1052979052" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.972136122" name="GNU ARM Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.305740384" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.1067273220" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="BOARD_BLE400"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF51"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SOFTDEVICE_PRESENT"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="BLE_STACK_SUPPORT_REQD"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SWI_DISABLE0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF51822"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF_SD_BLE_API_VERSION=2"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="S130"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.520388636" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/comp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/twi_master&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ancs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ias_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/s130/headers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/cdc/acm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/generic&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/msc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/log&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_gls&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/fstorage&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/i2s&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/gpiote&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/gpiote&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/boards&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_advertising&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/adc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/s130/headers/nrf51&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_bas_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hrs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/queue&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_dtm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain/cmsis/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_rscs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/uart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lls&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/wdt&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_bas&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/experimental_section_vars&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ans_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/slip&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/mem_manager&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/external/segger_rtt&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/csense_drv&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/hal&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_nus_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/rtc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ias&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/mouse&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/ppi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_dfu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/twis_slave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/scheduler&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lbs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hts&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/delay&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/crc16&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/util&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/cdc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/csense&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/rng&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/low_power_pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/hardfault&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_cscs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/uart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/hci&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/kbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/spi_slave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/lpcomp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/power&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/led_softblink&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/qdec&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_cts_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/spi_master&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_nus&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hids&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/pdm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/crc32&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/audio&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/peer_manager&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/swi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_tps&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_dis&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/device&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/nrf_ble_qwr&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/button&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/saadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lbs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_racp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain/gcc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/fds&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/twi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/clock&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_rscs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/usbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/common/softdevice_handler&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hrs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/log/src&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.156862232" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.184708713" name="GNU ARM Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1047904835" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/comp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/twi_master&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ancs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ias_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/s130/headers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/cdc/acm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/generic&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/msc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/log&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_gls&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/fstorage&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/i2s&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/gpiote&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/gpiote&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/boards&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_advertising&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/adc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/s130/headers/nrf51&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_bas_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hrs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/queue&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_dtm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain/cmsis/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_rscs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/uart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lls&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/wdt&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_bas&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/experimental_section_vars&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ans_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/slip&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/mem_manager&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/external/segger_rtt&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/csense_drv&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/hal&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_nus_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/rtc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ias&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/mouse&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/ppi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_dfu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/twis_slave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/scheduler&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lbs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hts&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/delay&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/crc16&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/util&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/cdc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/csense&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/rng&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/low_power_pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/hardfault&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_cscs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/uart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/hci&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/kbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/spi_slave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/lpcomp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/power&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/led_softblink&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/qdec&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_cts_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/spi_master&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_nus&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hids&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/pdm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/crc32&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/audio&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/peer_manager&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/swi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_tps&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_dis&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/device&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/nrf_ble_qwr&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/button&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/saadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lbs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_racp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain/gcc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/fds&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/twi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/clock&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_rscs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/usbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/common/softdevice_handler&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hrs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/log/src&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/blinky/config}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.4555851" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="BOARD_BLE400"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF51"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SOFTDEVICE_PRESENT"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="S130"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="BLE_STACK_SUPPORT_REQD"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SWI_DISABLE0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF51822"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF_SD_BLE_API_VERSION=2"/>
+                                    								
+                                </option>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.1368096490" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.gnu99" valueType="enumerated"/>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1286373510" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1480342420" name="GNU ARM Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1732618063" name="GNU ARM Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.1017117469" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.usenewlibnano.1929340355" name="Use newlib-nano (--specs=nano.specs)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.usenewlibnano" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.1922517828" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/blinkyLinker.ld}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.1263255211" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" useByScannerDiscovery="false" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/nRF5_SDK_12.3.0_d7731ad/components/toolchain/gcc"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.1217691188" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.520050885" name="GNU ARM Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.732625393" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.usenewlibnano.1237150982" name="Use newlib-nano (--specs=nano.specs)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.usenewlibnano" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.paths.702115650" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/nRF5_SDK_12.3.0_d7731ad/components/toolchain/gcc"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.186866269" name="GNU ARM Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.818573012" name="GNU ARM Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice.2039550530" name="Output file format (-O)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice" useByScannerDiscovery="false" value="ilg.gnuarmeclipse.managedbuild.cross.option.createflash.choice.ihex" valueType="enumerated"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1889898155" name="GNU ARM Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.430355889" name="Display source (--source|-S)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.165276311" name="Display all headers (--all-headers|-x)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.1230418159" name="Demangle names (--demangle|-C)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.226786135" name="Display line numbers (--line-numbers|-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.245011883" name="Wide lines (--wide|-w)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" value="true" valueType="boolean"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1532941231" name="GNU ARM Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.1186645155" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format" useByScannerDiscovery="false"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="nRF_SoftDevice|nRF_Segger_RTT|nRF_Log|nRF_Libraries|nRF_Drivers|nRF_BLE_Services|nRF_BLE|Board Support|Board Definition|Source Files" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Board Definition"/>
+                        						
+                        <entry excluding="Board Definition" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Board Support"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source Files"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_BLE"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_BLE_Services"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Drivers"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Libraries"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Log"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Segger_RTT"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_SoftDevice"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            			
+            <storageModule moduleId="ilg.gnumcueclipse.managedbuild.packs">
+                				
+                <option id="cmsis.device.name" value="nRF51822_xxAA"/>
+                				
+                <option id="cmsis.family.name" value="nRF51 Series"/>
+                				
+                <option id="cmsis.device.vendor.name" value="Nordic Semiconductor"/>
+                				
+                <option id="cmsis.device.vendor.id" value="54"/>
+                				
+                <option id="cmsis.device.pack.vendor" value="NordicSemiconductor"/>
+                				
+                <option id="cmsis.device.pack.name" value="nRF_DeviceFamilyPack"/>
+                				
+                <option id="cmsis.device.pack.version" value="8.24.1"/>
+                				
+                <option id="cmsis.core.name" value="Cortex-M0"/>
+                				
+                <option id="cmsis.compiler.define" value="NRF51"/>
+                				
+                <memory section="IRAM1" size="0x4000" start="0x20000000" startup="0"/>
+                				
+                <memory section="IROM1" size="0x40000" start="0x00000000" startup="true"/>
+                			
+            </storageModule>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1361634555">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1361634555" moduleId="org.eclipse.cdt.core.settings" name="Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="${cross_rm} -rf" description="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1361634555" name="Release" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.enablement=null,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=null,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=null,org.eclipse.cdt.docker.launcher.containerbuild.property.image=null,org.eclipse.cdt.docker.launcher.containerbuild.property.connection=null" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release">
+                    					
+                    <folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1361634555." name="/" resourcePath="">
+                        						
+                        <toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.release.648944313" name="ARM Cross GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.release">
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.271197241" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1202837007" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting" useByScannerDiscovery="false"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1912645015" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.1277122068" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.most" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1983834142" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.1750636064" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1919788552" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.257042841" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.1921198625" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.none" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.474583716" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format" useByScannerDiscovery="true"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1246940335" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" useByScannerDiscovery="false" value="GNU MCU Eclipse ARM Embedded GCC" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.140932190" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture" useByScannerDiscovery="false" value="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.arm" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.238749612" name="ARM family (-mcpu)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" useByScannerDiscovery="false" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m0" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.969140818" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset" useByScannerDiscovery="false" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.thumb" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.839084324" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" useByScannerDiscovery="false" value="arm-none-eabi-" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1928905432" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" useByScannerDiscovery="false" value="gcc" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1224045680" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" useByScannerDiscovery="false" value="g++" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1537250537" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" useByScannerDiscovery="false" value="ar" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1855555655" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" useByScannerDiscovery="false" value="objcopy" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.318676656" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" useByScannerDiscovery="false" value="objdump" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1578077038" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" useByScannerDiscovery="false" value="size" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1453090358" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" useByScannerDiscovery="false" value="make" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1002172863" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" useByScannerDiscovery="false" value="rm" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nobuiltin.1490145540" name="Disable builtin (-fno-builtin)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.nobuiltin" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.id.1622996033" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.id" useByScannerDiscovery="false" value="962691777" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.1074763801" name="Other target flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.target.other" useByScannerDiscovery="true" value="-mabi=aapcs -mfloat-abi=soft -fno-strict-aliasing --short-enums" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcmse.950862055" name="TrustZone (-mcmse)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcmse" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.591240188" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/blinky}/Release" id="ilg.gnuarmeclipse.managedbuild.cross.builder.269560551" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.331084843" name="GNU ARM Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.863744755" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.1170398455" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="BOARD_BLE400"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF51"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SOFTDEVICE_PRESENT"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="S130"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="BLE_STACK_SUPPORT_REQD"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SWI_DISABLE0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF51822"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF_SD_BLE_API_VERSION=2"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.1995874925" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/comp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/twi_master&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ancs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ias_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/s130/headers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/cdc/acm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/generic&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/msc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/log&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_gls&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/fstorage&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/i2s&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/gpiote&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/gpiote&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/boards&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_advertising&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/adc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/s130/headers/nrf51&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_bas_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hrs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/queue&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_dtm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain/cmsis/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_rscs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/uart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lls&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/wdt&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_bas&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/experimental_section_vars&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ans_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/slip&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/mem_manager&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/external/segger_rtt&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/csense_drv&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/hal&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_nus_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/rtc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ias&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/mouse&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/ppi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_dfu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/twis_slave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/scheduler&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lbs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hts&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/delay&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/crc16&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/util&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/cdc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/csense&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/rng&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/low_power_pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/hardfault&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_cscs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/uart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/hci&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/kbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/spi_slave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/lpcomp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/power&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/led_softblink&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/qdec&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_cts_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/spi_master&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_nus&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hids&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/pdm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/crc32&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/audio&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/peer_manager&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/swi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_tps&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_dis&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/device&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/nrf_ble_qwr&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/button&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/saadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lbs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_racp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain/gcc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/fds&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/twi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/clock&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_rscs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/usbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/common/softdevice_handler&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hrs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/log/src&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1280764957" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.530919497" name="GNU ARM Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1219725680" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/comp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/twi_master&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ancs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ias_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/s130/headers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/cdc/acm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/generic&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/msc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/log&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_gls&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/fstorage&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/i2s&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/gpiote&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/gpiote&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/boards&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_advertising&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/adc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/s130/headers/nrf51&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_bas_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hrs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/queue&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_dtm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain/cmsis/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_rscs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/uart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lls&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/wdt&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_bas&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/experimental_section_vars&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ans_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/slip&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/mem_manager&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/external/segger_rtt&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/csense_drv&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/hal&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_nus_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/rtc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_ias&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/mouse&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/ppi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_dfu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/twis_slave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/scheduler&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lbs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hts&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/delay&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/crc16&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/util&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/cdc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/csense&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/rng&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/low_power_pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/hardfault&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_cscs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/uart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/hci&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/hid/kbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/spi_slave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/lpcomp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/power&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/config&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/led_softblink&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/qdec&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_cts_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/spi_master&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_nus&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hids&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/pdm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/crc32&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd/class/audio&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/peer_manager&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/swi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_tps&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_dis&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/device&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/nrf_ble_qwr&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/button&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/usbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/saadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_lbs_c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_racp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/toolchain/gcc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/fds&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/twi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/clock&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_rscs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/drivers_nrf/usbd&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/softdevice/common/softdevice_handler&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/ble/ble_services/ble_hrs&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${NRF51_SDK}/components/libraries/log/src&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/blinky/config}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.925418153" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="BOARD_BLE400"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF51"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SOFTDEVICE_PRESENT"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="S130"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="BLE_STACK_SUPPORT_REQD"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SWI_DISABLE0"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF51822"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="NRF_SD_BLE_API_VERSION=2"/>
+                                    								
+                                </option>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.558946772" name="Language standard" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.std.gnu99" valueType="enumerated"/>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1231964120" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.520452674" name="GNU ARM Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1738802492" name="GNU ARM Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.1982786449" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.usenewlibnano.1843120198" name="Use newlib-nano (--specs=nano.specs)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.usenewlibnano" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.66081187" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" useByScannerDiscovery="false" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/nRF5_SDK_12.3.0_d7731ad/components/toolchain/gcc"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.1963094661" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" useByScannerDiscovery="false" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/blinkyLinker.ld}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.120902850" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1666059577" name="GNU ARM Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.577356994" name="Remove unused sections (-Xlinker --gc-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.usenewlibnano.266385763" name="Use newlib-nano (--specs=nano.specs)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.usenewlibnano" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.paths.50053318" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="/opt/nRF5_SDK_12.3.0_d7731ad/components/toolchain/gcc"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1526404186" name="GNU ARM Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.147650122" name="GNU ARM Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1387684597" name="GNU ARM Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.467687428" name="Display source (--source|-S)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.346249634" name="Display all headers (--all-headers|-x)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.215423813" name="Demangle names (--demangle|-C)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.2053424695" name="Display line numbers (--line-numbers|-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.37964938" name="Wide lines (--wide|-w)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" value="true" valueType="boolean"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.99288927" name="GNU ARM Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.64450225" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format" useByScannerDiscovery="false"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="nRF_SoftDevice|nRF_Segger_RTT|nRF_Log|nRF_Libraries|nRF_Drivers|nRF_BLE_Services|nRF_BLE|Board Support|Board Definition|Source Files" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Board Definition"/>
+                        						
+                        <entry excluding="Board Definition" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Board Support"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source Files"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_BLE"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_BLE_Services"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Drivers"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Libraries"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Log"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_Segger_RTT"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nRF_SoftDevice"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="blinky.ilg.gnuarmeclipse.managedbuild.cross.target.elf.524824064" name="Executable" projectType="ilg.gnuarmeclipse.managedbuild.cross.target.elf"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.586156376;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.586156376.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.184708713;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1286373510">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1361634555;ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1361634555.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.530919497;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1231964120">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="refreshScope" versionNumber="2">
+        		
+        <configuration configurationName="Debug">
+            			
+            <resource resourceType="PROJECT" workspacePath="/blinky"/>
+            		
+        </configuration>
+        		
+        <configuration configurationName="Release">
+            			
+            <resource resourceType="PROJECT" workspacePath="/blinky"/>
+            		
+        </configuration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    
+</cproject>
